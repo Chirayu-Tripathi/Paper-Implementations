@@ -22,7 +22,7 @@ class LayerNormalization(nn.Module):
         return self.alpha * (x - mean) / (std + self.eps) + self.bias
 
 class FeedForwardBlock(nn.Module):
-# can be thought of as cancelling out negative attention using relu. In other words it is also said to represent each token independently, unlike the attention layer which calculates dependencies between tokens.
+# In other words it is also said to represent each token independently, unlike the attention layer which calculates dependencies between tokens. The tokens after coming out of self-attention block knows which other tokens they need to attend to, now they just need to process it through feed-forward layer.
 
     def __init__(self, d_model: int, d_ff: int, dropout: float) -> None:
         super().__init__()
@@ -48,7 +48,7 @@ class InputEmbeddings(nn.Module):
         return self.embedding(x) * math.sqrt(self.d_model)
 
 class SegmentEmbeddings(nn.Module):
-    # from paper it seems to be a design choice. It can intelectually be thought of as contextualizing sentence A and B rather than just adding 0 or 1.
+    # from paper it seems to be a design choice. It can intellectually be thought of as contextualizing sentence A and B rather than just adding 0 or 1.
     def __init__(self, d_model: int, vocab_size: int) -> None:
         super().__init__()
         self.d_model = d_model
