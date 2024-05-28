@@ -1,8 +1,8 @@
 # BERT Implementation
 
-<div style="text-align: center;">
-<img src="images/architecture.png?raw=true" alt="Bert-Architecture" width="400"/>
-</div>
+<p align="center">
+<img src="images/architecture.png?raw=true" alt="Bert-Architecture" width="300"/>
+</p>
 
 This repository contains an implementation of the BERT (Bidirectional Encoder Representations from Transformers) model, which is a popular language model used for various natural language processing tasks.
 
