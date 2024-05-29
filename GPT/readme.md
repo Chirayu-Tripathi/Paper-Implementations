@@ -1,4 +1,4 @@
-# GPT (Generative Pre-trained Transformer) for Text Generation
+# GPT (Generative Pre-trained Transformer) for Text Generation.
 
 <p align="center">
 <img src="images/architecture.png?raw=true" alt="GPT-Architecture" width="350"/>
