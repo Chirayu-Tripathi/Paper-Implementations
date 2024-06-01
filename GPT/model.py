@@ -30,7 +30,7 @@ class FeedForwardBlock(nn.Module):
 
     def forward(self, x):
         # (batch, seq_len, d_model) --> (batch, seq_len, d_ff) --> (batch, seq_len, d_model)
-        return self.linear_2(self.dropout(torch.relu(self.linear_1(x))))
+        return self.linear_2(self.dropout(nn.functional.gelu(self.linear_1(x))))
 
 class InputEmbeddings(nn.Module):
     # combines text and pos embeddings.
