@@ -1,11 +1,17 @@
-# GPT (Generative Pre-trained Transformer) for Text Generation.
+# Language Models are Unsupervised Multitask Learners
 
 <p align="center">
 <img src="images/architecture.png?raw=true" alt="GPT-Architecture" width="350"/>
 </p>
 
 
-This repository contains a PyTorch implementation of the GPT (Generative Pre-trained Transformer) model for text generation tasks. The model is trained on the Shakespeare dataset, but it can be easily adapted to other text datasets.
+This repository contains a PyTorch implementation of the GPT2 (Generative Pre-trained Transformer) model for text generation tasks. The model is trained on the Shakespeare dataset, but it can be easily adapted to other text datasets.
+
+The code is entirely similar to the GPT code with some minor changes stated in paper: 
+"Layer normalization (Ba et al., 2016)
+was moved to the input of each sub-block, similar to a
+pre-activation residual network (He et al., 2016) and an
+additional layer normalization was added after the final selfattention block." 
 
 ## Files
 
@@ -85,4 +91,4 @@ To use this implementation with a different dataset, you can modify the `Shakesp
 
 ## Acknowledgments
 
-This implementation is based on the GPT paper by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever: [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf).
+This implementation is based on the GPT2 paper by Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever: [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf).
