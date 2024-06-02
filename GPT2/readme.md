@@ -1,7 +1,7 @@
 # Language Models are Unsupervised Multitask Learners
 
 <p align="center">
-<img src="images/architecture.png?raw=true" alt="GPT-Architecture" width="350"/>
+<img src="images/gpt2.png?raw=true" alt="GPT-Architecture" width="350"/>
 </p>
 
 
