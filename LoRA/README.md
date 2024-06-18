@@ -1,7 +1,7 @@
 # GPT2 with LoRA (Low-Rank Adaptation) Implementation in PyTorch
 
 <p align="center">
-<img src="images/gpt2.png?raw=true" alt="GPT-Architecture" width="350"/>
+<img src="images/architecture.png?raw=true" alt="GPT-Architecture" width="350"/>
 </p>
 
 This repository contains a PyTorch implementation of the Low-Rank Adaptation (LoRA) technique for fine-tuning pre-trained language models, specifically GPT-2. LoRA is a parameter-efficient method for adapting large pre-trained models to specific downstream tasks, requiring significantly fewer trainable parameters compared to full fine-tuning.
