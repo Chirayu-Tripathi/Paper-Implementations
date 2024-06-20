@@ -17,4 +17,4 @@ List of resources, that I found helpful while understanding and coding the conce
 
 3. Let's build GPT: from scratch, in code, spelled out by Andrej Karpathy. [Youtube](https://www.youtube.com/watch?v=kCc8FmEb1nY).
 
-4. Formal Algorithms for Transformers. [arXiv] (https://arxiv.org/abs/2207.09238)
+4. Formal Algorithms for Transformers. [arXiv](https://arxiv.org/abs/2207.09238)
