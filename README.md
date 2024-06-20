@@ -16,3 +16,5 @@ List of resources, that I found helpful while understanding and coding the conce
 2. Coding a Transformer from scratch on PyTorch, with full explanation, training and inference by Umar jamil: [Youtube](https://www.youtube.com/watch?v=ISNdQcPhsts).
 
 3. Let's build GPT: from scratch, in code, spelled out by Andrej Karpathy. [Youtube](https://www.youtube.com/watch?v=kCc8FmEb1nY).
+
+4. Formal Algorithms for Transformers. [arXiv] (https://arxiv.org/abs/2207.09238)
